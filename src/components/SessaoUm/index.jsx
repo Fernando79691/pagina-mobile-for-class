@@ -60,6 +60,7 @@ const SessaoContainer = styled.section`
         width: 50px;
         height: 45px;
         margin-top: 24px;
+        margin-bottom: 50px;
     }
     
 `;
