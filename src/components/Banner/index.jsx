@@ -47,7 +47,7 @@ export default function Banner() {
             <p>Tenha acesso a mais de 100 presets prontos que vão deixar
                 suas fotos com qualidade de estúdio, usando o Lightroom
                 gratuito e sem precisar saber nada de edição de fotos.</p>
-            <img src={banner} alt="Homem de camisa vermelha" />
+            <img src={banner} alt="Homem de camisa vermelha" loading='lazy' />
         </BannerContainer>
     )
 }

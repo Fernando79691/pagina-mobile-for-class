@@ -117,13 +117,13 @@ export default function SessaoTres() {
             </div>
 
             <div className='informacoes'>
-                <p><img src={check} alt="icone de check simples" />Compra <strong>Segura</strong></p>
-                <p><img src={star} alt="icone de estrela" />7 dias de <strong>Garantia</strong></p>
+                <p><img loading='lazy' src={check} alt="icone de check simples" />Compra <strong>Segura</strong></p>
+                <p><img loading='lazy' src={star} alt="icone de estrela" />7 dias de <strong>Garantia</strong></p>
             </div>
 
             <div className='campos'>
                 <h5>Preencha os campos abaixo</h5>
-                <img src={seta} alt="icone de seta" />
+                <img loading='lazy' src={seta} alt="icone de seta" />
             </div>
         </SessaoContainer>
     )
